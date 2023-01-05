@@ -36,7 +36,7 @@ module Lecture1
 -- ^^^ and before this line. Otherwise the test suite might fail  ^^^
 
 {- | Specify the type signature of the following function. Think about
-its behaviour, possible types for the function arguments and write the
+its behavior, possible types for the function arguments and write the
 type signature explicitly.
 -}
 makeSnippet limit text = take limit ("Description: " ++ text) ++ "..."
